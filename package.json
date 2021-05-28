@@ -1,0 +1,61 @@
+{
+  "name": "@abstractapi/javascript-exchange-rates",
+  "version": "1.0.0",
+  "description": "AbstractAPI Javascript Exchange Rates Library - Wrapper to quickly start using the powerful AbstractAPI's Exchange Rates service in your projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:lib": "npx babel src --out-dir lib",
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abstractapi/javascript-exchange-rates.git"
+  },
+  "keywords": [
+    "API",
+    "Abstract",
+    "Library",
+    "Wrapper",
+    "abstract",
+    "abstractapi",
+    "api",
+    "library",
+    "javascript-library",
+    "Currency",
+    "Currencies",
+    "Exchange rates",
+    "Currency exchange",
+    "wrapper"
+  ],
+  "author": "Benjamin Bouchet <libraries@abstractapi.com> (https://abstractapi.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abstractapi/javascript-exchange-rates/issues"
+  },
+  "homepage": "https://github.com/abstractapi/javascript-exchange-rates",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-async-to-generator": "^7.13.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.13.8",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "jest": "^26.6.3",
+    "regenerator-runtime": "^0.13.7",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "@abstractapi/javascript-core": "1.x",
+    "fsevents": "^2.3.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
+}
