@@ -8,7 +8,7 @@ The Exchange Rate API is an REST API that allows you to:
 - get historical exchange rates using the *historical* endpoint
 - convert an arbitrary amount from one currency to another using the *convert* endpoint
 
-It's very simple to use: you only need to submit your API key and a currency symbole (such as "USD"), and the API will respond with current exchange rate, historical data, or convertion rates.
+It's very simple to use: you only need to submit your API key and a currency symbol (such as "USD"), and the API will respond with current exchange rate, historical data, or convertion rates.
 
 # Documentation
 
